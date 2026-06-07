@@ -4,7 +4,7 @@ const RandomNumber = () => {
     const[rnum,setRnum] = useState('No Number Generated Yet')
   return (
     <>
-        <div className="random-container bg-white text-black rounded-2xl my-24pr p-8">
+        <div className="random-container bg-white text-black rounded-2xl my-24 p-8">
                 <div className="content text-center">
                     <h1 className='text-6xl font-extrabold'>Random Number Generator</h1>
                     <h1 className='my-12 font-bold text-4xl'>{rnum}</h1>
