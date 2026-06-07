@@ -4,8 +4,8 @@ import RandomNumber from './RandomNumber'
 const Counter = () => {
     const [count, setCount] = useState(0)
     return (
-        <div className='md:flex justify-around'>
-            <div className="counter-container bg-white text-black rounded-2xl my-48 p-8">
+        <div className='lg:flex justify-around p-2 lg:p-0'>
+            <div className="counter-container bg-white text-black rounded-2xl my-24 p-8">
                 <div className="content text-center">
                     <h1 className='text-6xl font-extrabold'>Counter Application</h1>
                     <h1 className='my-16 text-5xl font-bold'>{count}</h1>
